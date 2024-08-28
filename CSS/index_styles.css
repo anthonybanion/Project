@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    display: inline-table;
+    position: relative;
+    width: 100%;
+    background: #0f171f;
+    color: #4b6170;        
+    padding-top: 3em;
+    padding-bottom: 1em;
+    font-weight: bolder;     
+}
+
+.logoA{
+    display: inline-table;
+    position: absolute;
+    margin-top: -2em;
+}
+
+.logoA:hover{
+    transform: scale(1.2);
+    transition: 1s all;
+}
+
+.alura-link{
+    text-decoration: none;
+}
+
+.title{
+    margin-left: 5em;
+    margin-bottom: 2px;
+}
+                
+main{
+    background: #191919;
+    background-image: url(img/code.png);
+    background-repeat: repeat, repeat-x, repeat-y;
+    width: 200%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.boxContent{
+    flex-direction: column;
+}
+
+.boxMsg{
+    display: flex;  
+}
+
+.condiciones{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.circleCondition{
+    width: 25px;
+    margin-left: 2.8em;
+}
+
+#condition{
+    font-size: 18px;
+    margin-left: 6px;
+    margin-top: 6px;
+    color: #f7f7f7;
+}
+
+textarea{
+    display: inline;
+    margin: 10px 40px 25px;
+    margin-left: 140px;
+    padding: 10px 25px;
+    width: 380px;
+    height: 350px;
+}
+
+.txtMensaje, .txtOutput{
+    display: relative;
+    font-size: 2em;
+    border-color: #f4821f;
+    border-width: 3px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+    background: #706f6f;
+    color: #14202b;
+        .syne-mono-regular {
+            font-family: "Syne Mono", monospace;
+            font-weight: 400;
+            font-style: normal;
+        }
+}
+
+#txtResultado{
+    background: #706f6f;
+    background-image: url(img/Munieco.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: bottom;
+}
+
+::placeholder{
+    color: #f7f7f7;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+}
+
+button{
+    background: #424242;
+    width: 160px;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 7px;
+    color: #f7f7f7;
+    box-shadow: 8px 6px 12px 0px #000000;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Copiar{
+    margin-left: 360px;
+}
+
+.Encriptar{
+    margin-left: 175px;
+}
+
+.Desencriptar{
+    margin-left: 50px;
+}
+
+button:hover{
+    background: #191919;
+    color: #f4821f;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    transition: 1s all;
+    cursor:pointer;
+    transform: scale(1.2);
+}
+
+button:active{
+    color: #03d00098;
+    transition: 0ms all;
+}
+
+footer{
+    background: #333333;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+    color: #f7f7f7;
+    font-weight: bolder;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.boxSocial{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;                   
+}
+
+.githubIcon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+}
+
+.katze{
+    width: 50px;
+    height: 50px;
+}
+
+.bckgrKatze{
+    display: flex;
+    flex-direction: row;
+    top: 2px;
+    position: relative;
+}
+
+.githubIcon:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 1s all;
+}
+
+.linkedinIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #0a63bc;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-right: 7px;
+}
+
+.inLetters{
+    position: absolute;
+    font-size: 45px;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.linkedinIcon:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 1s all;
+}
+                
+.inLetters:hover{
+    transform: scale(1.2);
+    transition: 1s all;
+}
+
+.aluraIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #0f171f;
+    position: relative;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-left: 3px;
+}
+
+.aLetters{
+    position: center;
+    padding-bottom: 6px;
+    font-size: 45px;
+    color: #0a3871;
+    font-family: 'Encode Sans';
+    font-weight: bolder;
+}
+
+.aluraIcon:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 1s all;
+}
+                
+.aLetters:hover{
+    transform: scale(1.2);
+    transition: 1s all;
+}
+
+.perfilA{
+    text-decoration: none;
+    color: #0a3871;
+}
+
+.perfil{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+                                                /* { Code</>Design } ® */
